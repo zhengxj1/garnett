@@ -1,0 +1,5 @@
+Garnett工作流有两个主要部分，每个部分的详细描述如下:
+Train/obtain the classifier: 要么下载现有的分类器，要么训练自己的分类器。为了训练，Garnett解析一个标记文件，选择一组训练细胞，然后训练一个多项分类器来区分细胞类型。
+Classify cells: 接下来，Garnett将分类器应用于一组细胞，以生成cell类型。Garnett还可以选择将分类扩展到类似的细胞，以生成一组独立的分群扩展类型。
+可用的分类器列表可以在这里找到（https://cole-trapnell-lab.github.io/garnett/classifiers）
+关于如何提交分类器的详细信息可以在这里找到（https://cole-trapnell-lab.github.io/garnett/docs/#submitting-a-classifier）
